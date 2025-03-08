@@ -1,0 +1,22 @@
+{
+  "name": "deepseek-chat-save",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "start": "node main.js",
+     "start:headless": "node main.js --headless",
+     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "md-to-pdf": "^5.2.4",
+    "puppeteer": "^24.4.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "turndown": "^7.2.0"
+  }
+}

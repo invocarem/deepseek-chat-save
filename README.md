@@ -10,7 +10,9 @@ A Node.js service for convert deepseek chat. The pdf saved contains the thinking
 ```
  
 2. Create a .env file
+   
    You need to set both "CHAT_URL" and "CHAT_CONTAINER_SELECTOR", the block name is the one you found by inspect the block of the chat. The block covers the conversation you want to save to PDF
+   
 ```
 CHAT_URL=https://chat.deepseek.com/a/chat/s/[chat-id]
 CHAT_CONTAINER_SELECTOR=[block name]
@@ -27,6 +29,7 @@ OUTPUT_PDF_FILE=chat.pdf
 MD_STYLESHEET=https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css
 ```
 3 Convert:
+
 Before you convert the deepsee chat, you need kill all Chrome live instances including the one you want to convert.
 ```
     node main.js

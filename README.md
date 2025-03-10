@@ -30,7 +30,7 @@ MD_STYLESHEET=https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/g
 ```
 3 Convert:
 
-Before you convert the deepsee chat, you need kill all Chrome live instances including the one you want to convert.
+Before you convert the deepseek chat, you need kill all Chrome live instances including the one you want to convert.
 ```
     node main.js
 ```
